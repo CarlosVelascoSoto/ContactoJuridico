@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition" template="/WEB-INF/views/layout/commonLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="menu" value="/WEB-INF/views/layout/menu.jsp" />
+		<put-attribute name="header" value="/WEB-INF/views/layout/header.jsp" />
+		<put-attribute name="page" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" />
+		<put-attribute name="quicky" value="/WEB-INF/views/layout/quicky.jsp" />
+		<put-list-attribute name="javascripts">
+        </put-list-attribute>
+		<put-list-attribute name="csslist">
+        </put-list-attribute>
+	</definition>
+
+	<definition name="home" extends="base.definition">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/home.jsp" />
+		<put-list-attribute name="csslist" inherit="true">
+	        <add-attribute value="resources/assets/css/custom.home.css"/>
+	        <add-attribute value="resources/assets/css/icons.min.css"/>	        
+	    </put-list-attribute>
+		<put-list-attribute name="javascripts" inherit="true">
+	        <!-- add-attribute value="resources/assets/plugins/flot-chart/jquery.flot.js"/>
+	        <add-attribute value="resources/assets/plugins/flot-chart/jquery.flot.time.js"/>
+	        <add-attribute value="resources/assets/plugins/flot-chart/jquery.flot.tooltip.min.js"/>
+	        <add-attribute value="resources/assets/plugins/flot-chart/jquery.flot.selection.js"/>
+	        <add-attribute value="resources/assets/plugins/flot-chart/jquery.flot.crosshair.js"/>
+	        <add-attribute value="resources/assets/js/chart-home.init.js"/>  -->
+	    </put-list-attribute>
+
+	</definition>
+
+	<definition name="mainhome" extends="base.definition">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/mainhome.jsp" />
+		<put-list-attribute name="csslist" inherit="true">
+	        <add-attribute value="resources/assets/css/custom.home.css"/>
+	        <add-attribute value="resources/assets/css/icons.min.css"/>	        
+	    </put-list-attribute>
+	</definition>
+
+	<definition name="createaccount" extends="base.definition">
+		<put-attribute name="title" value="Vías" />
+		<put-attribute name="page" value="/WEB-INF/views/login/createaccount.jsp" />
+	</definition>
+
+	<definition name="addnewuser" extends="base.definition">
+		<put-attribute name="title" value="Add User" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/addnewuser.jsp" />
+	</definition>
+	
+	<definition name="roles" extends="base.definition">
+		<put-attribute name="title" value="Add Roles" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/roles.jsp" />
+	</definition>
+	
+	<definition name="privileges" extends="base.definition">
+		<put-attribute name="title" value="Privileges panel" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/privileges.jsp" />
+	</definition>
+	
+	<definition name="campaigns" extends="base.definition">
+		<put-attribute name="title" value="Campaigns" />
+		<put-attribute name="page" value="/WEB-INF/views/client/campaigns.jsp" />
+	</definition>
+	
+	<definition name="emailsettings" extends="base.definition">
+		<put-attribute name="title" value="emailsettings" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/emailsettings.jsp" />
+	</definition>
+	
+	<definition name="modules" extends="base.definition">
+		<put-attribute name="title" value="Modules" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/modules.jsp" />
+	</definition>
+	
+	<definition name="searchuser" extends="base.definition">
+		<put-attribute name="title" value="Search User" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/searchuser.jsp" />
+	</definition>
+	<definition name="loadDiv" template="/WEB-INF/jsp/useradmin/userLists.jsp"/>
+
+	<definition name="juicios" extends="base.definition">
+		<put-attribute name="title" value="Juicios" />
+		<put-attribute name="page" value="/WEB-INF/views/commonlaws/juicios.jsp" />
+	</definition>
+
+	<definition name="apelaciones" extends="base.definition">
+		<put-attribute name="title" value="Apelaciones" />
+		<put-attribute name="page" value="/WEB-INF/views/commonlaws/apelaciones.jsp" />
+	</definition>
+
+	<definition name="appealsdashboard" extends="base.definition">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="page" value="/WEB-INF/views/commonlaws/appealsdashboard.jsp" />
+	</definition>
+
+	<definition name="trialsdashboard" extends="base.definition">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="page" value="/WEB-INF/views/commonlaws/trialsdashboard.jsp" />
+	</definition>
+
+	<definition name="protectiondashboard" extends="base.definition">
+		<put-attribute name="title" value="protectiondashboard" />
+		<put-attribute name="page" value="/WEB-INF/views/cjf/protectiondashboard.jsp" />
+	</definition>
+
+	<definition name="protections" extends="base.definition">
+		<put-attribute name="title" value="protections" />
+		<put-attribute name="page" value="/WEB-INF/views/cjf/protections.jsp" />
+	</definition>
+
+	<definition name="indprotections" extends="base.definition">
+		<put-attribute name="title" value="indprotections" />
+		<put-attribute name="page" value="/WEB-INF/views/cjf/indprotections.jsp" />
+	</definition>
+
+	<definition name="indprotectiondashboard" extends="base.definition">
+		<put-attribute name="title" value="indprotectiondashboard" />
+		<put-attribute name="page" value="/WEB-INF/views/cjf/indprotectiondashboard.jsp" />
+	</definition>
+
+	<definition name="resources" extends="base.definition">
+		<put-attribute name="title" value="resources" />
+		<put-attribute name="page" value="/WEB-INF/views/cjf/resources.jsp" />
+	</definition>
+
+	<definition name="resourcedashboard" extends="base.definition">
+		<put-attribute name="title" value="resourcedashboard" />
+		<put-attribute name="page" value="/WEB-INF/views/cjf/resourcedashboard.jsp" />
+	</definition>
+
+	<definition name="companies" extends="base.definition">
+		<put-attribute name="title" value="companies" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/companies.jsp" />
+	</definition>
+
+	<definition name="clients" extends="base.definition">
+		<put-attribute name="title" value="clients" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/clients.jsp" />
+	</definition>
+
+	<definition name="companyclients" extends="base.definition">
+		<put-attribute name="title" value="companyclients" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/companyclients.jsp" />
+	</definition>
+
+	<definition name="profile" extends="base.definition">
+		<put-attribute name="title" value="Add User" />
+		<put-attribute name="page" value="/WEB-INF/views/general/userprofile/profile.jsp" />
+	</definition>
+	<definition name="editprofile" extends="base.definition">
+		<put-attribute name="title" value="Add User" />
+		<put-attribute name="page" value="/WEB-INF/views/general/userprofile/editprofile.jsp" />
+	</definition>
+
+	<definition name="ecalendar" extends="base.definition">
+		<put-attribute name="title" value="Calendar" />
+		<put-attribute name="page" value="/WEB-INF/views/general/userprofile/ecalendar.jsp" />
+	</definition>
+	
+	<definition name="setupmenu" extends="base.definition">
+		<put-attribute name="title" value="Setupmenu" />
+		<put-attribute name="page" value="/WEB-INF/views/layout/setupmenu.jsp" />
+	</definition>
+
+	<definition name="socialnetwork" extends="base.definition">
+		<put-attribute name="title" value="socialnetwork" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/socialnetwork.jsp" />
+	</definition>
+	<definition name="matters" extends="base.definition">
+		<put-attribute name="title" value="Matters" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/matters.jsp" />
+	</definition>
+	<definition name="cities" extends="base.definition">
+		<put-attribute name="title" value="cities" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/cities.jsp" />
+	</definition>
+	<definition name="rooms" extends="base.definition">
+		<put-attribute name="title" value="Rooms" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/rooms.jsp" />
+	</definition>
+	<definition name="courts" extends="base.definition">
+		<put-attribute name="title" value="Juzgados" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/courts.jsp" />
+	</definition>
+	<definition name="countries" extends="base.definition">
+		<put-attribute name="title" value="Países" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/countries.jsp" />
+	</definition>
+	<definition name="states" extends="base.definition">
+		<put-attribute name="title" value="Estados" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/states.jsp" />
+	</definition>
+	<definition name="circuits" extends="base.definition">
+		<put-attribute name="title" value="Circuitos" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/circuits.jsp" />
+	</definition>
+	<definition name="collegiatecourts" extends="base.definition">
+		<put-attribute name="title" value="Tribunales colegiados" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/collegiatecourts.jsp" />
+	</definition>
+	<definition name="unitarycourts" extends="base.definition">
+		<put-attribute name="title" value="Tribunal unitario" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/unitarycourts.jsp" />
+	</definition>
+	<definition name="jrdorgans" extends="base.definition">
+		<put-attribute name="title" value="Órganos jurisdiccionales" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/jrdorgans.jsp" />
+	</definition>
+	<definition name="regions" extends="base.definition">
+		<put-attribute name="title" value="Regiones" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/regions.jsp" />
+	</definition>
+	<definition name="organtypes" extends="base.definition">
+		<put-attribute name="title" value="Tipos de órganos" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/organtypes.jsp" />
+	</definition>
+
+	<definition name="federalcourts" extends="base.definition">
+		<put-attribute name="title" value="Juzgados federales" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/federalcourts.jsp" />
+	</definition>
+	<definition name="trialtypes" extends="base.definition">
+		<put-attribute name="title" value="Tipos de juicio" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/trialtypes.jsp" />
+	</definition>
+	<definition name="ways" extends="base.definition">
+		<put-attribute name="title" value="Vías" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/ways.jsp" />
+	</definition>
+		<definition name="ttactions" extends="base.definition">
+		<put-attribute name="title" value="Acciones de tipo de juicio" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/ttactions.jsp" />
+	</definition>
+	<definition name="commlabels" extends="base.definition">
+		<put-attribute name="title" value="Etiquetas de comunicación" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/commlabels.jsp" />
+	</definition>
+	<definition name="relatedcolumns" extends="base.definition">
+		<put-attribute name="title" value="Relación de columnas" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/relatedcolumns.jsp" />
+	</definition>
+	<definition name="commtypes" extends="base.definition">
+		<put-attribute name="title" value="Tipos de comunicación" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/commtypes.jsp" />
+	</definition>
+	<definition name="lawyerdirectory" extends="base.definition">
+		<put-attribute name="title" value="Directorio de abogados" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/lawyerdirectory.jsp" />
+	</definition>
+
+	<definition name="subprivileges" extends="base.definition">
+		<put-attribute name="title" value="Subprivileges control" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/subprivileges.jsp" />
+	</definition>
+	<definition name="importCatalogs" extends="base.definition">
+		<put-attribute name="title" value="Importar catalogos" />
+		<put-attribute name="page" value="/WEB-INF/views/catalogs/importCatalogs.jsp" />
+	</definition>
+	<definition name="fixurlpath" extends="base.definition">
+		<put-attribute name="title" value="Corregir rutas url de archivos" />
+		<put-attribute name="page" value="/WEB-INF/views/systools/fixurlpath.jsp" />
+	</definition>
+	<definition name="cam" extends="base.definition">
+		<put-attribute name="title" value="Cámara" />
+		<put-attribute name="page" value="/WEB-INF/views/general/cam/cam.jsp" />
+	</definition>
+
+	<definition name="example" extends="base.definition">
+		<put-attribute name="title" value="Example" />
+		<put-attribute name="page" value="/WEB-INF/views/systools/example.jsp" />
+	</definition>
+	<definition name="notifications" extends="base.definition">
+		<put-attribute name="title" value="Notificaciones" />
+		<put-attribute name="page" value="/WEB-INF/views/useradmin/notifications.jsp" />
+	</definition>
+
+	<definition name="consultas" extends="base.definition">
+		<put-attribute name="title" value="Consultas" />
+		<put-attribute name="page" value="/WEB-INF/views/consultas/consultas.jsp" />
+	</definition>
+	<definition name="consultasdashboard" extends="base.definition">
+		<put-attribute name="title" value="Consulta" />
+		<put-attribute name="page" value="/WEB-INF/views/consultas/consultasdashboard.jsp" />
+	</definition>
+</tiles-definitions>
