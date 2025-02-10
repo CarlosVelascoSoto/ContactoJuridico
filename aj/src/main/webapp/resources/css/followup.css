@@ -1,0 +1,638 @@
+.input-sm:focus {
+	background-color: ivory;
+}
+
+a {
+	cursor: pointer;
+}
+
+em {
+	color: red;
+}
+
+.inNumShort {
+	width: 50px;
+	text-align: right;
+}
+
+th {
+	text-align: center;
+}
+
+.custombox-modal-container.custombox-modal-container-fadein {
+	width: 60% !important;
+}
+
+.sweet-alert.showSweetAlert.visible {
+	z-index: 99999;
+}
+
+.unuse {
+	background-color: #F4F4F2;
+}
+
+#datatable-buttons_filter {
+	position: absolute;
+	top: 4px;
+	left: 10px;
+}
+
+#datatable-buttons_filter label {
+	display: inline-block;
+	width: 200px;
+	top: 5px;
+	left: 10px;
+}
+
+#baseDateControl .form-inline {
+	position: relative;
+}
+
+#baseDateControl {
+	text-align: right;
+}
+
+.caret {
+	color: #ccc;
+}
+
+.open {
+	width: 32% !important;
+}
+
+.dropdown-toggle, .bootstrap-select, .bootstrap-select button,
+	.bootstrap-select button:hover {
+	background-color: #fff !important;
+}
+
+.tac {
+	text-align: center;
+}
+
+.fwb {
+	font-weight: bold;
+}
+
+.tableIn {
+	margin-left: 30px;
+}
+
+.tableIn, #tableLead {
+	border-collapse: collapse;
+	table-layout: auto;
+	width: 100%;
+}
+
+.tableIn td:nth-child(2) {
+	max-width: 250px;
+}
+
+.tableIn, .tableIn tr, .tableIn td {
+	border-collapse: collapse;
+	border: 1px solid #EBEFF2;
+	padding: 8px 2px;
+}
+
+.tableIn td:first-child {
+	min-width: 40px;
+}
+
+td {
+	cursor: pointer
+}
+
+.tr2nd:nth-child(even) {
+	background-color: #fff;
+}
+
+.tr2nd:nth-child(odd) {
+	background-color: #f4f8fb;
+}
+
+.tr2nd {
+	display: none;
+}
+
+._red {
+	background-color: #F05050
+}
+
+._green {
+	background-color: #81C868
+}
+
+._blue {
+	background-color: #34D3EB
+}
+
+.nFup::after {
+	position: relative;
+	top: -6px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	content: "+";
+}
+
+.nFup {
+	display: inline-block;
+	margin: 0px 8px 2px 5px;
+	width: 15px;
+	height: 15px;
+	color: #fff;
+	font-size: 10px;
+	font-weight: 900;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #337AB7;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	box-shadow: 0px 0px 0px 4px #fff, 0px 0px 0px 6px #bbb;
+	-webkit-box-shadow: 0px 0px 0px 4px #fff, 0px 0px 0px 6px #bbb;
+	transition: 350ms;
+	-o-transition: 350ms;
+	-ms-transition: 350ms;
+	-moz-transition: 350ms;
+	-webkit-transition: 350ms;
+}
+
+.nFup:hover {
+	box-shadow: 0px 0px 0px 4px #fff, 0px 0px 0px 6px #337AB7;
+	-webkit-box-shadow: 0px 0px 0px 4px #fff, 0px 0px 0px 6px #555;
+}
+
+.nFminus::after {
+	position: relative;
+	top: -6px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	content: "-";
+}
+
+.nFminus {
+	display: inline-block;
+	margin: 0px 8px 2px 5px;
+	width: 15px;
+	height: 15px;
+	color: #fff;
+	font-size: 10px;
+	font-weight: 900;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #337AB7;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	box-shadow: 0px 0px 0px 4px #fff, 0px 0px 0px 6px #bbb;
+	-webkit-box-shadow: 0px 0px 0px 4px #fff, 0px 0px 0px 6px #bbb;
+	transition: 350ms;
+	-o-transition: 350ms;
+	-ms-transition: 350ms;
+	-moz-transition: 350ms;
+	-webkit-transition: 350ms;
+}
+
+.nFminus:hover {
+	box-shadow: 0px 0px 0px 4px #fff, 0px 0px 0px 6px #337AB7;
+	-webkit-box-shadow: 0px 0px 0px 4px #fff, 0px 0px 0px 6px #555;
+}
+
+
+#today {
+	text-align: right;
+}
+
+.actionEdit {
+	color: #39c;
+	cursor: pointer;
+	transition: 250ms;
+	-o-transition: 250ms;
+	-ms-transition: 250ms;
+	-moz-transition: 250ms;
+	-webkit-transition: 250ms;
+}
+
+.actionEdit:hover {
+	color: blue;
+}
+
+.no-plus::before {
+	content: none !important;
+}
+
+.no-plus {
+	padding-left: 50px !important;
+}
+
+.dateBlock {
+	position: relative;
+	display: flex;
+	-o-display: flex;
+	-ms-display: flex;
+	-moz-display: flex;
+	top: -35px;
+	width: 60%;
+	left: 205px;
+	margin: 0px 5px;
+}
+
+.ctrl-st {
+	position: absolute;
+	right: 165px;
+	text-align: right;
+}
+
+.ctrl-ac {
+	position: absolute;
+}
+
+.ctrl-tm {
+	position: absolute;
+	right: 45px;
+}
+
+.blockStatus {
+	position: absolute;
+	width: 150px !important;
+	right: 10px;
+	top: -8px;
+}
+/*dd (ini)*/
+.ddBox {
+	background-color: #FFF;
+}
+
+.ddBox::after {
+	content: "\25bc";
+	position: relative;
+	right: 28px;
+	font-size: 12px;
+	color: #ccc;
+	z-index: 5;
+}
+
+.ddInBox, .ddBox {
+	position: relative;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	cursor: pointer;
+}
+
+.ddInBox::-ms-expand {
+	display: none;
+} /* IE10 */
+.ddInBox {
+	appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	min-width: 150px;
+	padding: 5px 40px 6px 10px;
+	border: 1px solid #bbb;
+	background-color: transparent;
+	z-index: 10;
+} /*dd (fin)*/
+#newFupDate, #endDate {
+	width: 135px;
+	height: 35px;
+	border: 1px solid #bbb;
+	padding: 4px 0px 5px 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin: 1px 15%;
+}
+
+.timeField {
+	width: 65px;
+	height: 29px;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-align: center;
+	margin: 1px 0px;
+}
+
+#editFupDate {
+	margin-right: 4px;
+}
+
+#editSendeCal, #editSendeCal+label {
+	position: relative;
+	top: -50px;
+}
+
+.footBox {
+	position: relative;
+	top: -45px;
+	left: 1px;
+	width: 100%;
+	text-align: left;
+}
+
+@media screen and (min-width: 320px) and (max-width: 842px) {
+	#baseDateControl .form-inline {
+		width: 100%;
+		height: 87px;
+		padding-top: 50px;
+		text-align: left;
+	}
+}
+
+@media screen and (min-width:769px)and (min-width:805px) {
+	#datatable-buttons {
+		margin-left: -20px;
+	}
+}
+
+@media screen and (min-width:100px) and (max-width:768px) { /*td-tr*/
+	.tableIn {
+		margin-left: 0px;
+	}
+	.tresp {
+		border: 0;
+	}
+	.tresp thead {
+		border: none;
+		clip: rect(0, 0, 0, 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+	.tresp tr {
+		border-bottom: 3px solid #ddd;
+		display: block;
+		margin-bottom: .625em;
+	}
+	.tresp td {
+		border-bottom: 1px solid #ddd;
+		display: block;
+		font-size: 12px;
+		text-align: right;
+	}
+	.tresp td::before {
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.tresp td:last-child {
+		border-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	#baseDateControl, #baseDateControl * {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 542px) {
+	#baseDateControl div {
+		width: 33%;
+	}
+	#newFupDate, #endDate {
+		margin: 1px 13%;
+	}
+	#fupAction {
+		width: 150px;
+	}
+	#editFupDate, #editEndDate {
+		width: 120px;
+	}
+}
+
+@media screen and (min-width: 420px) and (max-width: 490px) {
+	.row {
+		position: relative;
+		top: -40px
+	}
+	.scr320 {
+		height: 290px;
+	}
+	#newFupDate, #endDate {
+		width: 100px;
+		margin: 1px 8%;
+	}
+	.ctrl-st {
+		top: 160px;
+		left: 10px;
+		right: unset;
+	}
+	.blockStatus {
+		top: 155px;
+		left: 90px;
+		right: unset;
+	}
+	.ddBox {
+		top: 50px;
+	}
+	.ddBox::after {
+		top: -27px;
+		right: -52px;
+	}
+	#fupAction {
+		top: -26px;
+		left: 80px;
+	}
+	#editFupAction {
+		top: -26px;
+		left: 80px;
+	}
+	.dateBlock {
+		top: 30px;
+		left: 74px;
+	}
+	.footBox {
+		top: -37px;
+	}
+	#tab1 .row {
+		height: 420px;
+	}
+}
+
+@media screen and (min-width: 342px) and (max-width: 419px) {
+	#editFupAction {
+		width: 179px;
+		left: 79px;
+	}
+	.ddBox::after {
+		top: -26px;
+		right: -50px;
+	}
+	.dateBlock {
+		top: 35px;
+		left: 74px;
+	}
+	#editEndTime {
+		position: relative;
+		width: 65px;
+		top: 0px;
+		left: 0px;
+	}
+}
+
+@media screen and (max-width: 419px) {
+	.row {
+		position: relative;
+		top: -40px
+	}
+	.scr320 {
+		height: 320px;
+	}
+	#newFupDate, #endDate {
+		width: 100px;
+		margin: 1px 8%;
+	}
+	.ctrl-st {
+		top: 160px;
+		left: 10px;
+		right: unset;
+	}
+	.blockStatus {
+		top: 155px;
+		left: 90px;
+		right: unset;
+	}
+	.ddBox {
+		top: 50px;
+	}
+	.ddBox::after {
+		top: -26px;
+		right: -27px;
+	}
+	#fupAction {
+		top: -26px;
+		left: 80px;
+	}
+	#editFupAction {
+		top: -26px;
+		left: 52px;
+		width: 177px;
+	}
+	.dateBlock {
+		top: 30px;
+		left: 47px;
+	}
+	#editFupDate, #editEndDate {
+		width: 110px;
+	}
+	.footBox {
+		top: -37px;
+	}
+	.modal-footer {
+		position: relative;
+		top: -45px;
+		padding-left: 25px !important;
+		text-align: justify;
+	}
+	#editSendeCal {
+		position: relative;
+		top: -9px;
+		left: -28px;
+	}
+	#editSendeCal+label {
+		position: relative;
+		top: -30px;
+	}
+	#tab1 .row {
+		height: 420px;
+	}
+}
+
+@media screen and (min-width: 318px) and (max-width: 383px) {
+	#editEndTime {
+		position: relative;
+		top: -30px;
+		left: 114px;
+	}
+}
+
+@media screen and (max-width: 319px) {
+	.row {
+		position: relative;
+		top: -40px
+	}
+	.scr320 {
+		height: 350px;
+	}
+	.ctrl-ac {
+		top: -40px;
+	}
+	#newFupDate, #endDate {
+		width: 100px;
+		margin: 1px 8%;
+	}
+	.ctrl-st {
+		top: 172px;
+		left: 10px;
+		right: unset;
+	}
+	.blockStatus {
+		top: 165px;
+		left: 70px;
+		right: unset;
+	}
+	.ddBox {
+		top: 90px;
+	}
+	.ddBox::after {
+		top: -35px;
+		right: 25px;
+	}
+	#fupAction {
+		top: -26px;
+		left: 80px;
+	}
+	#editFupAction {
+		top: -36px;
+		left: 0px;
+		width: 177px;
+	}
+	.dateBlock {
+		top: 60px;
+		left: -5px;
+	}
+	#editFupDate, #editEndDate {
+		width: 110px;
+	}
+	#editEndTime {
+		position: relative;
+		width: 65px;
+		top: -30px;
+		left: 114px;
+	}
+	.editCalData {
+		top: 63px;
+		left: -5px;
+	}
+	.footBox {
+		top: -37px;
+	}
+	.modal-footer {
+		position: relative;
+		top: -45px;
+		padding-left: 25px !important;
+		text-align: justify;
+	}
+	#editSendeCal {
+		position: relative;
+		top: -9px;
+		left: -28px;
+	}
+	#editSendeCal+label {
+		position: relative;
+		top: -30px;
+	}
+	#tab1 .row {
+		height: 420px;
+	}
+}

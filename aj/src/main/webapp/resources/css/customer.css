@@ -1,0 +1,75 @@
+a{cursor:pointer;}
+.fwb{font-weight:bold;}
+th,.tac{text-align:center;}
+#baseDateControl, .tar{text-align:right;}
+#baseDateControl .form-inline{position:relative;}
+.tableIn, #tableInvoice{border-collapse:collapse; table-layout:auto; width:100%;}
+.tableIn td:nth-child(2){max-width:250px;}
+.tableIn tr:nth-child(even){background-color:#f4f8fb;}
+.tableIn tr:nth-child(odd){background-color:#fff;}
+.tableIn, .tableIn tr, .tableIn td{
+	border:1px solid #EBEFF2;
+	border-collapse:collapse;
+	padding:8px 2px;
+}
+.tableIn td:first-child{min-width:40px;}
+.custombox-modal-container.custombox-modal-container-fadein {width: 60% !important;}
+.sweet-alert.showSweetAlert.visible {z-index: 99999;}
+.unuse{background-color:#F4F4F2;}
+
+#datatable-buttons_filter {position:absolute; top:4px; left:10px;}
+#datatable-buttons_filter label{
+	display: inline-block;
+	width: 200px;
+	top: 5px;
+	left:10px;
+}
+
+.footBox{position:relative; top:-45px; left:1px; width:100%; text-align:left;}
+
+@media screen and (min-width: 320px) and (max-width: 842px) {
+	#baseDateControl .form-inline{
+		width:100%;
+		height:87px;
+		padding-top:50px;
+		text-align:left;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	#baseDateControl, #baseDateControl * {display:inline-block;}
+}
+@media screen and (min-width: 320px) and (max-width: 542px) {
+	#baseDateControl div {width:33%;}
+	#editFupDate, #editEndDate{width:120px;}
+}
+@media screen and (min-width: 420px) and (max-width: 490px) {
+	.row{position:relative; top:-40px}
+	.scr320{height:290px;}
+	.blockStatus{top:155px; left:90px; right:unset;}
+	.footBox{top:-37px;}
+	#tab1 .row{height:420px;}
+}
+@media screen and (min-width: 342px) and (max-width: 419px) {
+	#editFupAction{width:179px;left:79px;}
+}
+@media screen and (max-width: 419px) {
+	.row{position:relative; top:-40px}
+	.scr320{height:320px;}
+	#newFupDate, #endDate{width:100px; margin:1px 8%;}
+	.footBox{top:-37px;}
+	.modal-footer{position:relative; top:-45px; padding-left:25px !important; text-align:justify;}
+	#tab1 .row{height:420px;}
+}
+@media screen and (min-width: 318px) and (max-width: 383px) {
+	#editEndTime{position:relative; top:-30px;left:114px;}
+}
+@media screen and (max-width: 319px) {
+	.row{position:relative; top:-40px}
+	.scr320{height:350px;}
+	#newFupDate, #endDate{width:100px; margin:1px 8%;}
+	.blockStatus{top:165px; left:70px; right:unset;}
+	#fupAction{top:-26px; left:80px;}
+	.footBox{top:-37px;}
+	.modal-footer{position:relative; top:-45px; padding-left:25px !important; text-align:justify;}
+	#tab1 .row{height:420px;}
+}
