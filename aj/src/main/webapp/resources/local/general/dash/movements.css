@@ -1,0 +1,42 @@
+.topblank{position:relative;height:75px}
+.blueTitle{font-size:24px;font-weight:500;color:#1B71D4}
+.avatarSm{width:50px;height:50px;margin-right:10px}
+[type="radio"],[type="radio"]+label{cursor:pointer}
+.btn-blue{background-color:#2287E1;color:#fff}
+.btn-blue:hover{background-color:#1B71D4;color:#fff}
+
+.w48p{width:48%}
+.w80p{width:80%}
+.mnw80p{min-width:80px}
+.mw100p{max-width:100px}
+.txArea4r{height:250px;resize:none}
+
+.filter_mov_acttype{position:relative;max-width:70vw;top:14px}
+[data-type="select-multiple"]{margin:0}
+.choices__inner{min-width:130px;min-height:35px !important;padding:0 !important;color:#000}
+.choices__input{min-width:130px}
+.choices__input--cloned{font-size:13px;float:left;margin:0 !important;padding:4px 5px !important;
+	min-width:140px !important;color:#000}
+.choices__list.choices__list--dropdown{min-width:180px;-webkit-box-shadow:0 10px 15px #777;box-shadow:0 10px 15px #777}
+choices__item.choices__item--selectable{margin:3px}
+
+.deleteActivity{position:relative;margin-top:-35px;margin-right:5px;float:right;
+	background-color:transparent;border:1px solid transparent;color:#444}
+.deleteActivity > i{font-size:20px}
+.deleteActivity:hover{color:#39c}
+
+.titlemov{font-size:24px;font-weight:600;padding-left:5%;color:#888}
+.newbtnright{padding:10px 25px;float:right;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+
+#moves-modal,#moves-edit-modal,#appeal-modal,#protection-modal,#resource-modal{position:fixed;
+	top:0;margin:0 auto;padding:0 !important;left:0;right:0;overflow:auto;z-index:1050}
+#moves-modal > button.close,#moves-edit-modal > button.close,#resource-modal > button.close{position:-webkit-sticky !important;
+	position:sticky !important;top:10px;right:10px}
+#resource-modal{width:80%;max-width:1280px}
+#errorOnEditMov{display:none}
+
+#newMoveForm > .row{max-height:60px}
+
+#errorOnAddMov, errorOnEditMov{display:none}
+@media screen and (max-width:610px){#moves-modal,#moves-edit-modal{width:100%;margin:0}}
+@media screen and (min-width:2048px){.card-box.table-responsive{max-width:2048px;margin:0 auto}}
